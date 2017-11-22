@@ -1,0 +1,37 @@
+baseURL = "http://www.stroidomodedovo21.ru/"
+languageCode = "ru"
+defaultContentLanguage = "ru"
+title = "Чувашские строители"
+theme = "freelancer"
+publishDir = "docs"
+disableKinds = ["taxonomy","taxonomyTerm"]
+
+[params]
+    googleAnalytics = "UA-110098479-1"
+
+    custom_css = ["css/domodedovo.css"]
+    custom_js  = []
+
+    [params.navigation]
+        brand = "Чувашские строители"
+
+    [params.header]
+        image = "profile.png"
+        name = "Чувашские рабочие"
+        subtitle = "Разнесем вашу квартиру и сорвем все сроки!"
+
+    [params.portfolio]
+        title = "Как мы работаем"
+
+    [params.faces]
+        title = "Наши лица"
+
+    [params.about]
+        title = "Реквизиты"
+        left = "Физическое лицо и его контакты"
+        right = "Индивидуальный предприниматель"
+
+    [params.about.button]
+        text = "Выписка из ЕГРИП"
+        link = "/files/211401329188.pdf"
+        icon = "download"

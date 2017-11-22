@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Чувашские строители</title>
+    <link>http://www.stroidomodedovo21.ru/</link>
+    <description>Recent content on Чувашские строители</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <lastBuildDate>Wed, 22 Nov 2017 15:45:33 +0300</lastBuildDate>
+    
+	<atom:link href="http://www.stroidomodedovo21.ru/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Index</title>
+      <link>http://www.stroidomodedovo21.ru/</link>
+      <pubDate>Wed, 22 Nov 2017 15:45:33 +0300</pubDate>
+      
+      <guid>http://www.stroidomodedovo21.ru/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
