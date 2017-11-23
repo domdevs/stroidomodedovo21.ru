@@ -9,7 +9,7 @@
             </div>
             <div class="row">
                 {{ range $.Site.Data.people }}
-                <div class="footer-col col-sm-4">
+                <div class="footer-col col-sm-4"{{ if .id }} id="face-{{ .id }}"{{ end }}>
                     {{ if .photo }}
                     <p>
                         <img src="{{ .photo }}" class="img-circle" alt="{{ .name }}" width="200px" height="200px" />
