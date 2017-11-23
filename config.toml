@@ -5,6 +5,7 @@ title = "Чувашские рабочие"
 theme = "freelancer"
 publishDir = "docs"
 disableKinds = ["taxonomy","taxonomyTerm"]
+enableRobotsTXT = true
 
 [params]
     googleAnalytics = "UA-110098479-1"
