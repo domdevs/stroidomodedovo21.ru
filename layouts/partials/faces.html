@@ -10,7 +10,14 @@
             <div class="row">
                 {{ range $.Site.Data.people }}
                 <div class="footer-col col-sm-4">
+                    {{ if .photo }}
+                    <p>
+                        <img src="{{ .photo }}" class="img-circle" alt="{{ .name }}" width="200px" height="200px" />
+                    </p>
+                    {{ end }}
+
                     <h3>{{ .name }}</h3>
+
                     {{ if .vk }}
                     <ul class="list-inline">
                         <li>
