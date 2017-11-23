@@ -1,7 +1,7 @@
 baseURL = "http://www.stroidomodedovo21.ru/"
 languageCode = "ru"
 defaultContentLanguage = "ru"
-title = "Чувашские строители"
+title = "Чувашские рабочие"
 theme = "freelancer"
 publishDir = "docs"
 disableKinds = ["taxonomy","taxonomyTerm"]
@@ -13,7 +13,7 @@ disableKinds = ["taxonomy","taxonomyTerm"]
     custom_js  = []
 
     [params.navigation]
-        brand = "Чувашские строители"
+        brand = "Чувашские рабочие"
 
     [params.header]
         image = "profile.png"
@@ -28,10 +28,10 @@ disableKinds = ["taxonomy","taxonomyTerm"]
 
     [params.about]
         title = "Реквизиты"
-        left = "Физическое лицо и его контакты"
-        right = "Индивидуальный предприниматель"
+        left = "<p><strong>E-mail:</strong> denis12071985@yandex.ru</p><p><strong>Телефон:</strong> +7 925 511-35-65</p>"
+        right = "<p><strong>ИП:</strong> Емельянов Денис Николаевич</p><p><strong>ОГРНИП:</strong> 316502700078599</p><p><strong>ИНН:</strong> 211401329188</p><p><strong>Дата регистрации:</strong> 20.12.2016</p><p><strong>Дата прекращения:</strong> 24.10.2017</p>"
 
     [params.about.button]
         text = "Выписка из ЕГРИП"
         link = "/files/211401329188.pdf"
-        icon = "download"
+        icon = ""
