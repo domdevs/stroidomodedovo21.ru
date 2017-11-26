@@ -25,7 +25,10 @@ enableRobotsTXT = true
         title = "Как мы работаем"
 
     [params.faces]
-        title = "Наши лица"
+        title = "Лица"
+
+    [params.advantages]
+        title = "Преимущества"
 
     [params.about]
         title = "Реквизиты"
